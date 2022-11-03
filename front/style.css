@@ -1,0 +1,64 @@
+/* Elements styles*/
+body {
+	font-family: Arial;
+    background-image: url("Campus_CKB_clock.jpg");
+    background-size: cover;
+    background-blend-mode:luminosity;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    background-image: url("Campus_CKB_clock.jpg");
+    background-size: cover;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+header h2{
+    text-align: center;
+    color: white;
+}
+#nav_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav_menu li{
+    display: inline-block;
+}
+
+#nav_menu a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 20px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #c21212;
+   
+}
+
+#nav_menu a:hover{
+    background: yellow;
+}
+form {
+    /* Center the form on the page */
+    margin: 25px auto;
+    width: 450px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #ccc;
+  }
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
