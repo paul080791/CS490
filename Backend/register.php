@@ -1,10 +1,7 @@
 <?php
 
 //include_once '/afs/cad/u/c/t/ct32/public_html/CS490/db.php';
-$dbServername= "sql1.njit.edu";
-$dbUsername = "ct32";
-$dbPassword="Fallsemester0615!";
-$dbName= "ct32";
+
 
 $conn = mysqli_connect($dbServername,$dbUsername,$dbPassword,$dbName);
 if (!$conn) {

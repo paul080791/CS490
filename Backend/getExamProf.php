@@ -8,7 +8,7 @@
 
 //$student_id=$decoder['student_id'];
 
-$sql="SELECT DISTINCT exam_name FROM Results WHERE visibility=false";
+$sql="SELECT DISTINCT exam_name FROM StudentAnswers WHERE is_active=true";
 
 
 $result= $conn->query($sql); 

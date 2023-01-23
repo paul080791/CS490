@@ -9,7 +9,7 @@
    $exam_name =$decoder["exam_name"];
    
 
-  // $exam_name="Caterine2";
+  //$exam_name="Paul2";
   // echo $exam_name;
    //$exam_name="exam2";
    /*

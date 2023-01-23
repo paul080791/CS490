@@ -1,7 +1,7 @@
 <?php
 
 $dbServer="";
-$dbUsername="";
+$dbUsername=" ";
 $dbPassword="";
 $dbName="DbProject";
 

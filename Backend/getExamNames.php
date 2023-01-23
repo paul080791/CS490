@@ -7,7 +7,7 @@
 
 
 
-$sql="SELECT DISTINCT `exam_name` FROM CreateExam";
+$sql="SELECT DISTINCT `exam_name` FROM CreateExam WHERE is_active=1";
 
 $result= $conn->query($sql); 
 $arr= array();

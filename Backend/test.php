@@ -7,7 +7,7 @@ $data = json_decode($json);
 print_r($data);
 //$display = file_get_contents('php://input');
 //print_r($display);
-echo "funciona!";
+echo "works!";
 
 
 ?>

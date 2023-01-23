@@ -4,11 +4,11 @@
     $response = file_get_contents('php://input'); 
     $decoder = json_decode($response,true); 
 
-//$student_id=6;
+$student_id=6;
 
-$student_id=$decoder['student_id'];
+//$student_id=$decoder['student_id'];
 
-$sql="SELECT DISTINCT exam_name FROM Results WHERE visibility=true AND student_id=$student_id";
+$sql="SELECT DISTINCT exam_name FROM ResultsTable WHERE visibility=true AND student_id=$student_id";
 
 
 $result= $conn->query($sql); 
