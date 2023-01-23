@@ -1,8 +1,8 @@
 <?php
 
-$dbServer="sql1.njit.edu";
-$dbUsername="ct32";
-$dbPassword="Fallsemester0615!";
+$dbServer="";
+$dbUsername=" ";
+$dbPassword="";
 $dbName="DbProject";
 
 $conn=mysqli_connect($dbServer,$dbUsername,$dbPassword,$dbName);
